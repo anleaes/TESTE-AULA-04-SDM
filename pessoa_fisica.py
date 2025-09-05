@@ -1,4 +1,2 @@
-from pessoa import Pessoa
-
-class PessoaFisica(Pessoa):
+class PessoaFisica:
     pass
