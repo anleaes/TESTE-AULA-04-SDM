@@ -8,6 +8,7 @@ def main():
     pj2 = PessoaJuridica('Antonio Silva', 'Rua tal 4',423424, 2005)
     print("Cliente: %s - Data de nascimeto: %s " % (pf1._nome , pf1._data_nascimento))
     print(pj2._cnpj)
+    print(pf1._cpf)
 
 if __name__ == "__main__": 
     main()
