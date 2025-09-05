@@ -9,6 +9,7 @@ def main():
     print("Cliente: %s - Data de nascimeto: %s " % (pf1._nome , pf1._data_nascimento))
     print(pj2._cnpj)
 
+    print(pf1._cpf)
+
 if __name__ == "__main__": 
     main()
-
