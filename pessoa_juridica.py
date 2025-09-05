@@ -2,8 +2,8 @@ from pessoa import Pessoa
 
 class PessoaJuridica(Pessoa):
 
-    def __init__(self, nome, endereco,  cnpj):
-        super().__init__(nome,  endereco)
+    def __init__(self, nome, endereco, idade,  cnpj):
+        super().__init__(nome,  endereco, idade)
         self._cnpj = cnpj
 
     def validar_cnpj(cnpj=None):
